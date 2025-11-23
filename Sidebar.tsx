@@ -2,16 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Pipeline, Users, Settings, FileText } from "lucide-react";
-
+import { Home, FileText, User, Settings, TrendingUp } from "lucide-react";
 const nav = [
   { href: "/", label: "Dashboard", icon: Home },
-  { href: "/leads", label: "Leads", icon: Pipeline },
-  { href: "/pipeline", label: "Pipeline", icon: FileText },
-  { href: "/team", label: "Team", icon: Users },
+  { href: "/leads", label: "Leads", icon: FileText },
+  { href: "/pipeline", label: "Pipeline", icon: TrendingUp },
+  { href: "/team", label: "Team", icon: User },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
-
 export default function Sidebar() {
   const pathname = usePathname();
 
