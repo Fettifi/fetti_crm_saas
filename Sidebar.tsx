@@ -7,7 +7,7 @@ const nav = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/leads", label: "Leads", icon: FileText },
   { href: "/pipeline", label: "Pipeline", icon: TrendingUp },
-  { href: "/team", label: "Team", icon: User },
+  { href: "/team", label: "Team", icon: Users },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 export default function Sidebar() {
