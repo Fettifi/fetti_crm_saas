@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, FileText, User, Settings, TrendingUp } from "lucide-react";
+import { Home, FileText, Users, Settings, TrendingUp } from "lucide-react";
 const nav = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/leads", label: "Leads", icon: FileText },
