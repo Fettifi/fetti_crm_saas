@@ -2,15 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-// correct lucide-react imports
-import {
-  Home,
-  FileText,
-  Users,
-  Settings,
-  TrendingUp,
-} from "lucide-react";
+import { Home, Users, Settings, FileText, TrendingUp } from "lucide-react";
 
 const nav = [
   { href: "/", label: "Dashboard", icon: Home },
@@ -29,7 +21,6 @@ export default function Sidebar() {
         <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-fettiGreen to-fettiGold flex items-center justify-center font-black text-slate-950">
           F
         </div>
-
         <div>
           <div className="text-sm font-semibold tracking-wide">Fetti CRM</div>
           <div className="text-xs text-slate-400">We Do Money.</div>
