@@ -1,7 +1,6 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import React from 'react';
-
+import "./globals.css";
+import type { Metadata } from "next";
+import Sidebar from "@/components/Sidebar";
 export const metadata: Metadata = {
   title: 'Fetti CRM',
   description: 'Fetti CRM SaaS portal',
